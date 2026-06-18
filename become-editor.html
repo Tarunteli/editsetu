@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join EditSetu as a professional video editor. Submit your application and connect with hundreds of creators." />
+  <meta property="og:title" content="Become an Editor — EditSetu" />
+  <meta property="og:description" content="Apply to join EditSetu and start getting work from verified content creators." />
+  <title>Become an Editor — EditSetu</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232D7FFF'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='18' font-weight='800' font-family='sans-serif'>E</text></svg>" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- ═══════ NAVBAR ═══════ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">E</div>
+      <span class="logo-text">Edit<span>Setu</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="editors.html">Find Editors</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="become-editor.html" class="btn btn-primary btn-sm">Become Editor</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="editors.html">Find Editors</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="become-editor.html" class="btn btn-primary btn-sm" style="width:fit-content;">Become Editor</a>
+  </div>
+
+  <!-- ═══════ PAGE HERO ═══════ -->
+  <section class="page-hero">
+    <div class="orb orb-blue"></div>
+    <div class="orb orb-purple"></div>
+    <div class="container">
+      <span class="section-label">✦ Free to Join</span>
+      <h1 class="page-hero-title">Become an <span style="background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">EditSetu Editor</span></h1>
+      <p class="page-hero-sub">List your profile for free, connect directly with creators, and grow your editing business — no commissions, ever.</p>
+    </div>
+  </section>
+
+  <!-- ═══════ WHY JOIN PERKS ═══════ -->
+  <section style="padding: 20px 0 60px;">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;max-width:900px;margin:0 auto;">
+        <div style="background:var(--bg-card);border:1px solid var(--glass-border);border-radius:var(--radius-md);padding:20px;text-align:center;" class="reveal delay-1">
+          <div style="font-size:1.8rem;margin-bottom:8px;"><i class="fas fa-tag"></i></div>
+          <div style="font-weight:600;font-size:0.9rem;color:var(--text);margin-bottom:4px;">Free Listing</div>
+          <div style="font-size:0.8rem;color:var(--muted);">No signup fee, ever</div>
+        </div>
+        <div style="background:var(--bg-card);border:1px solid var(--glass-border);border-radius:var(--radius-md);padding:20px;text-align:center;" class="reveal delay-2">
+          <div style="font-size:1.8rem;margin-bottom:8px;"><i class="fas fa-comment"></i></div>
+          <div style="font-weight:600;font-size:0.9rem;color:var(--text);margin-bottom:4px;">Direct Contact</div>
+          <div style="font-size:0.8rem;color:var(--muted);">Clients reach you directly</div>
+        </div>
+        <div style="background:var(--bg-card);border:1px solid var(--glass-border);border-radius:var(--radius-md);padding:20px;text-align:center;" class="reveal delay-3">
+          <div style="font-size:1.8rem;margin-bottom:8px;"><i class="fas fa-percentage"></i></div>
+          <div style="font-weight:600;font-size:0.9rem;color:var(--text);margin-bottom:4px;">0% Commission</div>
+          <div style="font-size:0.8rem;color:var(--muted);">Keep 100% of earnings</div>
+        </div>
+        <div style="background:var(--bg-card);border:1px solid var(--glass-border);border-radius:var(--radius-md);padding:20px;text-align:center;" class="reveal delay-4">
+          <div style="font-size:1.8rem;margin-bottom:8px;"><i class="fas fa-badge"></i></div>
+          <div style="font-weight:600;font-size:0.9rem;color:var(--text);margin-bottom:4px;">Verified Badge</div>
+          <div style="font-size:0.8rem;color:var(--muted);">Build trust faster</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- ═══════ APPLICATION FORM ═══════ -->
+<section class="become-editor">
+  <div class="container">
+    <div class="form-wrapper">
+
+      <div class="section-head text-center reveal" style="margin-bottom:36px;">
+        <span class="section-label">✦ Application</span>
+        <h2 class="section-title">Submit Your <span>Profile</span></h2>
+        <p class="section-sub">
+          Fill in the details below. Our team reviews applications within 24–48 hours.
+        </p>
+      </div>
+
+      <div class="form-card reveal">
+
+        <form id="editor-form"
+              action="https://api.web3forms.com/submit"
+              method="POST">
+
+          <!-- Web3Forms -->
+          <input type="hidden" name="access_key" value="f49a82ae-1070-44bc-b6ee-671a460d2cb4">
+          <input type="hidden" name="subject" value="New Editor Application - EditSetu">
+          <input type="hidden" name="from_name" value="EditSetu Editor Application Form">
+
+          <div class="form-grid">
+
+            <!-- Full Name -->
+            <div class="form-group">
+              <label class="form-label" for="fullName">
+                Full Name <span>*</span>
+              </label>
+
+              <input type="text"
+                     id="fullName"
+                     name="name"
+                     class="form-input"
+                     placeholder="Your full name"
+                     required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label class="form-label" for="email">
+                Email Address <span>*</span>
+              </label>
+
+              <input type="email"
+                     id="email"
+                     name="email"
+                     class="form-input"
+                     placeholder="your@email.com"
+                     required>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="form-group">
+              <label class="form-label" for="whatsapp">
+                WhatsApp Number <span>*</span>
+              </label>
+
+              <input type="tel"
+                     id="whatsapp"
+                     name="whatsapp"
+                     class="form-input"
+                     placeholder="10-digit mobile number"
+                     required>
+            </div>
+
+            <!-- Experience -->
+            <div class="form-group">
+              <label class="form-label" for="experience">
+                Years of Experience <span>*</span>
+              </label>
+
+              <select id="experience"
+                      name="experience"
+                      class="form-select"
+                      required>
+
+                <option value="">Select experience</option>
+                <option value="Less than 1 year">Less than 1 year</option>
+                <option value="1 - 2 years">1 – 2 years</option>
+                <option value="3 - 4 years">3 – 4 years</option>
+                <option value="5+ years">5+ years</option>
+
+              </select>
+            </div>
+
+            <!-- Category -->
+            <div class="form-group">
+              <label class="form-label" for="category">
+                Editing Category <span>*</span>
+              </label>
+
+              <select id="category"
+                      name="category"
+                      class="form-select"
+                      required>
+
+                <option value="">Select your specialty</option>
+                <option value="YouTube Editor">YouTube Editor</option>
+                <option value="Reels Editor">Reels / Short-form Editor</option>
+                <option value="Wedding Editor">Wedding Editor</option>
+                <option value="Gaming Editor">Gaming Editor</option>
+                <option value="Motion Graphics Artist">Motion Graphics Artist</option>
+                <option value="Multiple Categories">Multiple Categories</option>
+
+              </select>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="form-group">
+              <label class="form-label" for="portfolio">
+                Portfolio / Work Link
+              </label>
+
+              <input type="url"
+                     id="portfolio"
+                     name="portfolio"
+                     class="form-input"
+                     placeholder="https://youtube.com/yourchannel">
+
+              <span class="form-hint">
+                <i class="fas fa-info-circle"></i>
+                YouTube, Behance, Drive, or any public portfolio link.
+              </span>
+            </div>
+
+            <!-- About Yourself -->
+            <div class="form-group full">
+              <label class="form-label" for="message">
+                Tell Us About Yourself
+              </label>
+
+              <textarea id="message"
+                        name="message"
+                        class="form-textarea"
+                        rows="5"
+                        placeholder="What tools do you use? What type of content do you specialise in?"></textarea>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-submit">
+
+              <p class="form-submit-note">
+                <i class="fas fa-lock"></i>
+                Your information is secure and will only be used for verification.
+              </p>
+
+              <button type="submit" class="btn btn-primary">
+                Submit Application →
+              </button>
+
+              <div id="form-status" class="form-status"></div>
+
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:14px;display:inline-flex;">
+            <div class="logo-mark">E</div>
+            <span class="logo-text">Edit<span>Setu</span></span>
+          </a>
+          <p class="footer-desc">India's premium marketplace connecting content creators with professional video editors.</p>
+          <div class="footer-socials">
+            <a class="footer-social" href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a class="footer-social" href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a class="footer-social" href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a class="footer-social" href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="editors.html">Find Editors</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">For Editors</div>
+          <ul class="footer-links">
+            <li><a href="become-editor.html">Become an Editor</a></li>
+            <li><a href="become-editor.html">Application Form</a></li>
+            <li><a href="about.html">How It Works</a></li>
+            <li><a href="contact.html">Get Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Categories</div>
+          <ul class="footer-links">
+            <li><a href="editors.html">YouTube Editors</a></li>
+            <li><a href="editors.html">Reels Editors</a></li>
+            <li><a href="editors.html">Wedding Editors</a></li>
+            <li><a href="editors.html">Gaming Editors</a></li>
+            <li><a href="editors.html">Motion Graphics</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+               <p class="footer-copy">
+    © 2026 <span>EditSetu</span>. All Rights Reserved. Designed & Developed by <span>RutherCloud Solutions Pvt. Ltd.</span>
+</p>
+        <div class="footer-legal">
+          <a href="/privacy-policy.html">Privacy Policy</a>
+          <a href="/terms-of-service.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

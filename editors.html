@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse 100+ professional video editors on EditSetu. Filter by YouTube, Reels, Wedding, Gaming, and Motion Graphics categories." />
+  <meta property="og:title" content="Find Editors — EditSetu" />
+  <meta property="og:description" content="Browse verified professional video editors for every content type." />
+  <title>Find Editors — EditSetu</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232D7FFF'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='18' font-weight='800' font-family='sans-serif'>E</text></svg>" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- ═══════ NAVBAR ═══════ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">E</div>
+      <span class="logo-text">Edit<span>Setu</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="editors.html" class="active">Find Editors</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="become-editor.html" class="btn btn-primary btn-sm">Become Editor</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="editors.html">Find Editors</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="become-editor.html" class="btn btn-primary btn-sm" style="width:fit-content;">Become Editor</a>
+  </div>
+
+  <!-- ═══════ PAGE HERO ═══════ -->
+  <section class="page-hero">
+    <div class="orb orb-blue"></div>
+    <div class="orb orb-purple"></div>
+    <div class="container">
+      <span class="section-label">✦ 100+ Editors Ready</span>
+      <h1 class="page-hero-title">Find Your <span style="background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Perfect Editor</span></h1>
+      <p class="page-hero-sub">Browse verified professionals across every content category. Direct contact, zero commission, real results.</p>
+    </div>
+  </section>
+
+  <!-- ═══════ EDITORS LISTING ═══════ -->
+  <section class="editors-section">
+    <div class="container">
+
+      <!-- Search + Filter Bar -->
+      <div class="search-filter reveal">
+        <div class="search-box">
+          <label for="editor-search">Search Editors</label>
+          <div class="search-input-wrap">
+            <span class="search-icon" style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none;">🔍</span>
+            <input
+              type="text"
+              id="editor-search"
+              class="search-input"
+              placeholder="Name, category, or skill..."
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Category</span>
+          <div class="filter-chips">
+            <button class="chip active" data-filter="all">All Editors</button>
+            <button class="chip" data-filter="reels">Reels Editor</button>
+            <button class="chip" data-filter="youtube">YouTube Editor</button>
+            <button class="chip" data-filter="wedding">Wedding Editor</button>
+            <button class="chip" data-filter="gaming">Gaming Editor</button>
+            <button class="chip" data-filter="motion">Motion Graphics</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Meta -->
+      <div class="editors-results-meta reveal">
+        <p class="results-count" id="results-count">Showing <span>12</span> editors</p>
+        <p style="font-size:0.8rem;color:var(--muted);">Direct contact — no commission fees</p>
+      </div>
+
+      <!-- Editors Grid -->
+      <div class="editors-grid" id="editors-grid">
+        <!-- Cards injected by JS -->
+        <div style="grid-column:1/-1;text-align:center;padding:60px 20px;">
+          <div style="font-size:2rem;margin-bottom:12px;"><i class="fas fa-spinner fa-spin"></i></div>
+          <p style="color:var(--muted);">Loading editors…</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════ CTA ═══════ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <h2 class="cta-title">Are You a Video Editor?</h2>
+        <p class="cta-sub">Get listed on EditSetu for free and connect with hundreds of creators looking for your skills right now.</p>
+        <div class="cta-btns">
+          <a href="become-editor.html" class="btn btn-primary">Apply as Editor</a>
+          <a href="about.html" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:14px;display:inline-flex;">
+            <div class="logo-mark">E</div>
+            <span class="logo-text">Edit<span>Setu</span></span>
+          </a>
+          <p class="footer-desc">India's premium marketplace connecting content creators with professional video editors.</p>
+          <div class="footer-socials">
+            <a class="footer-social" href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a class="footer-social" href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a class="footer-social" href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a class="footer-social" href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="editors.html">Find Editors</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">For Editors</div>
+          <ul class="footer-links">
+            <li><a href="become-editor.html">Become an Editor</a></li>
+            <li><a href="become-editor.html">Application Form</a></li>
+            <li><a href="about.html">How It Works</a></li>
+            <li><a href="contact.html">Get Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">Categories</div>
+          <ul class="footer-links">
+            <li><a href="editors.html">YouTube Editors</a></li>
+            <li><a href="editors.html">Reels Editors</a></li>
+            <li><a href="editors.html">Wedding Editors</a></li>
+            <li><a href="editors.html">Gaming Editors</a></li>
+            <li><a href="editors.html">Motion Graphics</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+               <p class="footer-copy">
+    © 2026 <span>EditSetu</span>. All Rights Reserved. Designed & Developed by <span>RutherCloud Solutions Pvt. Ltd.</span>
+</p>
+        <div class="footer-legal">
+          <a href="/privacy-policy.html">Privacy Policy</a>
+          <a href="/terms-of-service.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
