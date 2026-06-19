@@ -125,8 +125,8 @@ function initScrollAnimations() {
 const EDITORS = [
   {
     id: 1,
-    name: 'Aryan Mehta',
-    initials: 'AM',
+    name: 'Arjun Dangi',
+    initials: 'AD',
     avatarBg: 'linear-gradient(135deg, #2D7FFF, #8B5CF6)',
     category: 'YouTube Editor',
     categoryKey: 'youtube',
