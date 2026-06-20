@@ -133,7 +133,7 @@ const EDITORS = [
     rating: 4.9,
     reviews: 127,
     experience: '5 Years',
-    price: '₹1,500',
+    price: '₹400',
     tags: ['Long-form', 'Vlogs', 'Tutorials'],
     verified: true,
     profile: 'editors/editor-aryan.html'
