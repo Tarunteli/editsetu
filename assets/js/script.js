@@ -139,21 +139,22 @@ const EDITORS = [
     profile: 'editors/editor-aryan.html'
   },
 
-  {
+    {
     id: 2,
-    name: 'Priya Sharma',
-    initials: 'PS',
+    name: 'Ashish Teli',
+    initials: 'AT',
     avatarBg: 'linear-gradient(135deg, #8B5CF6, #ec4899)',
     category: 'Reels Editor',
     categoryKey: 'reels',
     rating: 5.0,
     reviews: 89,
     experience: '3 Years',
-    price: '₹800',
+    price: '₹200',
     tags: ['Instagram', 'Trendy', 'Music Sync'],
     verified: true,
-    profile: 'editors/editor-priya.html'
+    profile: 'editors/editor-Ashish-Teli.html'
   },
+
 
   {
     id: 3,
