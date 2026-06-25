@@ -158,18 +158,18 @@ const EDITORS = [
 
   {
     id: 3,
-    name: 'Ravi Kumar',
-    initials: 'RK',
+    name: 'Dinesh Teli',
+    initials: 'DT',
     avatarBg: 'linear-gradient(135deg, #10b981, #2D7FFF)',
-    category: 'Wedding Editor',
-    categoryKey: 'wedding',
+    category: 'Reels Editor',
+    categoryKey: 'reels',
     rating: 4.8,
-    reviews: 203,
-    experience: '7 Years',
-    price: '₹5,000',
-    tags: ['Cinematic', 'Drone Footage', '4K'],
+    reviews: 89,
+    experience: '1 Years',
+    price: '₹300',
+    tags: ['Basic Editing', 'YouTube', 'Reels'],
     verified: true,
-    profile: 'editors/editor-ravi.html'
+    profile: 'editors/editor-Dinesh-teli.html'
   },
 
   {
