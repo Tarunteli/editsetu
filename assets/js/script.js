@@ -113,97 +113,13 @@ function initScrollAnimations() {
         }
       });
     },
-    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
   );
 
   revealEls.forEach(el => observer.observe(el));
 }
 
-/* ══════════════════════════════════════════════
-   EDITOR DATA
-══════════════════════════════════════════════ */
-const EDITORS = [
-  {
-    id: 1,
-    name: 'Arjun Dangi',
-    initials: 'AD',
-    avatarBg: 'linear-gradient(135deg, #2D7FFF, #8B5CF6)',
-    category: 'YouTube Editor',
-    categoryKey: 'youtube',
-    rating: 4.9,
-    reviews: 127,
-    experience: '5 Years',
-    price: '₹400',
-    tags: ['Long-form', 'Vlogs', 'Tutorials'],
-    verified: true,
-    profile: 'editors/editor-aryan.html'
-  },
 
-    {
-    id: 2,
-    name: 'Ashish Teli',
-    initials: 'AT',
-    avatarBg: 'linear-gradient(135deg, #8B5CF6, #ec4899)',
-    category: 'Reels Editor',
-    categoryKey: 'reels',
-    rating: 5.0,
-    reviews: 89,
-    experience: '3 Years',
-    price: '₹200',
-    tags: ['Instagram', 'Trendy', 'Music Sync'],
-    verified: true,
-    profile: 'editors/editor-Ashish-Teli.html'
-  },
-
-
-  {
-    id: 3,
-    name: 'Dinesh Teli',
-    initials: 'DT',
-    avatarBg: 'linear-gradient(135deg, #10b981, #2D7FFF)',
-    category: 'Reels Editor',
-    categoryKey: 'reels',
-    rating: 4.8,
-    reviews: 89,
-    experience: '1 Years',
-    price: '₹300',
-    tags: ['Basic Editing', 'YouTube', 'Reels'],
-    verified: true,
-    profile: 'editors/editor-Dinesh-teli.html'
-  },
-
-  {
-    id: 4,
-    name: 'Sahil Verma',
-    initials: 'SV',
-    avatarBg: 'linear-gradient(135deg, #f59e0b, #ef4444)',
-    category: 'Gaming Editor',
-    categoryKey: 'gaming',
-    rating: 4.7,
-    reviews: 156,
-    experience: '4 Years',
-    price: '₹1,200',
-    tags: ['Montages', 'Highlights', 'Thumbnails'],
-    verified: true,
-    profile: 'editors/editor-sahil.html'
-  },
-
-  {
-    id: 5,
-    name: 'Nisha Patel',
-    initials: 'NP',
-    avatarBg: 'linear-gradient(135deg, #ec4899, #8B5CF6)',
-    category: 'Motion Graphics',
-    categoryKey: 'motion',
-    rating: 4.9,
-    reviews: 74,
-    experience: '6 Years',
-    price: '₹3,000',
-    tags: ['After Effects', 'Animations', 'Intros'],
-    verified: true,
-    profile: 'editors/editor-nisha.html'
-  }
-];
 
 /* ─── Render Stars ───────────────────────────── */
 function renderStars(rating) {
@@ -212,6 +128,7 @@ function renderStars(rating) {
   const empty = 5 - full - (half ? 1 : 0);
   return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(empty);
 }
+
 
 /* ─── Build Card HTML ────────────────────────── */
 function buildEditorCard(editor) {
@@ -226,47 +143,75 @@ function buildEditorCard(editor) {
       font-weight:500;">${t}</span>`
   ).join('');
 
-  return `
-    <div class="editor-card reveal" data-category="${editor.categoryKey}">
-      <div class="card-top">
-        <div class="card-avatar" style="background:${editor.avatarBg}">${editor.initials}</div>
+return `
+<div class="editor-card reveal" data-category="${editor.categoryKey}">
+
+    <div class="card-top">
+        <div class="card-avatar" style="background:${editor.avatarBg}">
+            ${editor.initials}
+        </div>
+
         <div class="card-meta">
-          <div class="card-name">${editor.name}</div>
-          <div class="card-category">${editor.category}</div>
+            <div class="card-name">${editor.name}</div>
+            <div class="card-category">${editor.category}</div>
         </div>
-        ${editor.verified ? `<div class="card-verified" title="Verified Editor">✓</div>` : ''}
-      </div>
-      <div class="card-rating">
-        <span class="stars">${renderStars(editor.rating)}</span>
-        <span class="rating-num">${editor.rating.toFixed(1)}</span>
-        <span class="rating-count">(${editor.reviews})</span>
-      </div>
-      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">${tagHTML}</div>
-      <div class="card-details">
-        <div class="card-detail-item">
-          <span class="detail-label">Experience</span>
-          <span class="detail-value">${editor.experience}</span>
-        </div>
-        <div class="card-detail-item">
-          <span class="detail-label">Starting at</span>
-          <span class="detail-value price">${editor.price}</span>
-        </div>
-      </div>
-      <div class="card-footer">
-        <a href="${editor.profile}" class="btn btn-primary btn-sm">View Profile</a>
-        <span style="font-size:0.75rem;color:var(--muted);"><i class="fas fa-info-circle"></i> Fast reply</span>
-      </div>
+
+        ${editor.verified ? `<div class="card-verified">✓</div>` : ''}
     </div>
-  `;
+
+    <div class="card-rating">
+        ${
+            editor.reviews > 0
+            ? `
+                <span class="stars">${renderStars(editor.rating)}</span>
+                <span class="rating-num">${editor.rating.toFixed(1)}</span>
+                <span class="rating-count">(${editor.reviews})</span>
+              `
+            : ``
+        }
+    </div>
+
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">
+        ${tagHTML}
+    </div>
+
+    <div class="card-details">
+
+        <div class="card-detail-item">
+            <span class="detail-label">Experience</span>
+            <span class="detail-value">${editor.experience}</span>
+        </div>
+
+        <div class="card-detail-item">
+            <span class="detail-label">Starting at</span>
+            <span class="detail-value price">${editor.price}</span>
+        </div>
+
+    </div>
+
+    <div class="card-footer">
+        <a href="${editor.profile}" class="btn btn-primary btn-sm">
+            View Profile
+        </a>
+
+        <span style="font-size:.75rem;color:var(--muted);">
+            <i class="fas fa-info-circle"></i> Fast reply
+        </span>
+    </div>
+
+</div>
+`;
 }
 
 /* ══════════════════════════════════════════════
    HOME — Featured Editors (6 cards)
 ══════════════════════════════════════════════ */
 const featuredGrid = document.querySelector('#featured-editors-grid');
+
 if (featuredGrid) {
-  featuredGrid.innerHTML = EDITORS.slice(0, 6).map(buildEditorCard).join('');
-  initScrollAnimations();
+    featuredGrid.innerHTML = EDITORS.slice(0,6)
+        .map(buildEditorCard)
+        .join('');
 }
 
 /* ══════════════════════════════════════════════
