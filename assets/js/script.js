@@ -183,7 +183,7 @@ return `
         </div>
 
         <div class="card-detail-item">
-            <span class="detail-label">Starting at</span>
+            <span class="detail-label">Price</span>
             <span class="detail-value price">${editor.price}</span>
         </div>
 
