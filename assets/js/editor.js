@@ -240,7 +240,7 @@ const EDITORS = [
     experience: "3 - 4 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "CapCut", "Short-form Video"],
-    verified: false,
+    verified: true,
     phone: "8000557374",
     about: "Kapil Jat is a proficient reels editor with 3–4 years of experience, specializing in CapCut to create trendy and engaging short-form videos.",
     experiencePoints: [
@@ -278,7 +278,7 @@ const EDITORS = [
     experience: "5+ Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Shorts", "Creative Editing"],
-    verified: false,
+    verified: true,
     phone: "8000621116",
     about: "Tanish Rao is a seasoned reels editor with 5+ years of experience crafting visually compelling short-form content for Instagram and YouTube.",
     experiencePoints: [
@@ -316,7 +316,7 @@ const EDITORS = [
     experience: "5+ Years",
     price: "Contact for Pricing",
     tags: ["Wedding Editing", "Cinematic", "Video Production"],
-    verified: false,
+    verified: true,
     phone: "9352247592",
     about: "Arjun Suthar is a skilled wedding editor with 5+ years of experience producing cinematic and emotionally rich wedding films using CapCut Pro.",
     experiencePoints: [
@@ -354,7 +354,7 @@ const EDITORS = [
     experience: "1 - 2 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Shorts", "Video Editing"],
-    verified: false,
+    verified: true,
     phone: "6375848840",
     about: "Ravi Menaria is an enthusiastic reels editor with 1–2 years of experience, dedicated to creating visually appealing short-form content.",
     experiencePoints: [
@@ -392,7 +392,7 @@ const EDITORS = [
     experience: "5+ Years",
     price: "Contact for Pricing",
     tags: ["YouTube", "Video Editing", "Content Creation"],
-    verified: false,
+    verified: true,
     phone: "8302539554",
     about: "Govind Rana Bhil is an experienced YouTube editor with 5+ years of expertise in producing high-quality video content that grows channels and engages audiences.",
     experiencePoints: [
@@ -430,7 +430,7 @@ const EDITORS = [
     experience: "3 - 4 Years",
     price: "Contact for Pricing",
     tags: ["YouTube", "Reels", "Vlogs", "Multi-Category"],
-    verified: false,
+    verified: true,
     phone: "7000133692",
     about: "Saksham Rathod is a versatile multi-category editor with 3–4 years of experience, capable of handling YouTube videos, reels, vlogs, and more.",
     experiencePoints: [
@@ -468,7 +468,7 @@ const EDITORS = [
     experience: "3 - 4 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Shorts", "Video Editing"],
-    verified: false,
+    verified: true,
     phone: "7877261424",
     about: "Shubham Prajapt is a dedicated reels editor with 3–4 years of experience, bringing creative flair and professionalism to every short-form video.",
     experiencePoints: [
@@ -506,7 +506,7 @@ const EDITORS = [
     experience: "1 - 2 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "YouTube", "Multi-Category"],
-    verified: false,
+    verified: true,
     phone: "8078663294",
     about: "Manish Prajapat is a creative multi-category editor with 1–2 years of experience, adept at handling diverse content types across social media platforms.",
     experiencePoints: [
@@ -544,7 +544,7 @@ const EDITORS = [
     experience: "Less than 1 Year",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Shorts", "Video Editing"],
-    verified: false,
+    verified: true,
     phone: "9175002478",
     about: "Bhrat is a motivated reels editor just starting out, eager to create impactful and trending short-form video content for creators.",
     experiencePoints: [
@@ -582,7 +582,7 @@ const EDITORS = [
     experience: "3 - 4 Years",
     price: "Contact for Pricing",
     tags: ["YouTube", "Reels", "Multi-Category", "Professional Editing"],
-    verified: false,
+    verified: true,
     phone: "8003456437",
     about: "Nilesh Rawat is a highly skilled multi-category editor with 3–4 years of experience, known for delivering top-quality edits across YouTube, reels, and beyond.",
     experiencePoints: [
@@ -620,7 +620,7 @@ const EDITORS = [
     experience: "1 - 2 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "CapCut", "VN Editor"],
-    verified: false,
+    verified: true,
     phone: "9079852857",
     about: "Mahender is a skilled reels editor with 1–2 years of experience using CapCut and VN to craft trendy and visually engaging short-form videos.",
     experiencePoints: [
@@ -658,7 +658,7 @@ const EDITORS = [
     experience: "3 - 4 Years",
     price: "Contact for Pricing",
     tags: ["YouTube", "Reels", "Multi-Category"],
-    verified: false,
+    verified: true,
     phone: "9024831153",
     about: "Bhupi is a versatile multi-category editor with 3–4 years of experience, capable of producing high-quality content across YouTube, reels, and other platforms.",
     experiencePoints: [
@@ -696,7 +696,7 @@ const EDITORS = [
     experience: "3 - 4 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Shorts", "All Content Types"],
-    verified: false,
+    verified: true,
     phone: "6376866510",
     about: "Mehuljain is a skilled reels editor with 3–4 years of experience, proficient in creating all types of short-form content for creators and brands.",
     experiencePoints: [
@@ -734,7 +734,7 @@ const EDITORS = [
     experience: "3 - 4 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Shorts", "Video Editing"],
-    verified: false,
+    verified: true,
     phone: "8529234098",
     about: "Roshan Edits is a dedicated reels editor with 3–4 years of experience, specializing exclusively in edits that are sharp, creative, and impactful.",
     experiencePoints: [
@@ -772,7 +772,7 @@ const EDITORS = [
     experience: "1 - 2 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Mobile Editing", "Short-form Video"],
-    verified: false,
+    verified: true,
     phone: "8690873450",
     about: "Laluram Bhil is a passionate mobile reels editor with 1–2 years of experience, dedicated to learning and creating great content from scratch.",
     experiencePoints: [
@@ -810,7 +810,7 @@ const EDITORS = [
     experience: "1 - 2 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "CapCut Pro", "Short-form Video"],
-    verified: false,
+    verified: true,
     phone: "9326007225",
     about: "Rahul Hati is a reels editor with 1–2 years of experience using CapCut Pro to produce clean and engaging short-form videos.",
     experiencePoints: [
@@ -848,7 +848,7 @@ const EDITORS = [
     experience: "Less than 1 Year",
     price: "Contact for Pricing",
     tags: ["Video Editing", "Multi-Category", "Content Creation"],
-    verified: false,
+    verified: true,
     phone: "6367116109",
     about: "Dinesh Teli is a multi-category video editor with a knack for producing well-crafted videos that attract strong viewership right from the start.",
     experiencePoints: [
@@ -886,7 +886,7 @@ const EDITORS = [
     experience: "1 - 2 Years",
     price: "Contact for Pricing",
     tags: ["Instagram Reels", "Shorts", "Video Editing"],
-    verified: false,
+    verified: true,
     phone: "9316449602",
     about: "Ashish Teli is a professional reels editor with 1–2 years of experience, committed to delivering the best editing services to help creators grow.",
     experiencePoints: [
@@ -924,7 +924,7 @@ const EDITORS = [
     experience: "5+ Years",
     price: "Contact for Pricing",
     tags: ["YouTube", "Reels", "Multi-Category", "Professional Editing"],
-    verified: false,
+    verified: true,
     phone: "8209498658",
     about: "Arjun Dangi is a professional multi-category editor with 5+ years of experience, dedicated to helping creators grow their journey with outstanding video editing.",
     experiencePoints: [
