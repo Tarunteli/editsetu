@@ -1,5 +1,44 @@
 const EDITORS = [
   {
+  id: 26,
+  slug: "chetan-lohar",
+  name: "Chetan Lohar",
+  initials: "CL",
+  avatarBg: "linear-gradient(135deg,#2D7FFF,#8B5CF6)",
+  category: "Reels Editor",
+  categoryKey: "reels",
+  rating: 0,
+  reviews: 0,
+  experience: "3 - 4 Years",
+  price: "Contact for Pricing",
+  tags: ["Instagram Reels", "Shorts", "Video Editing"],
+  verified: false,
+  phone: "9352080930",
+  about: "Chetan Lohar is a professional Reels Editor with 3–4 years of experience creating engaging short-form videos for Instagram, YouTube Shorts, and social media platforms.",
+  experiencePoints: [
+    "3 - 4 Years of Professional Experience",
+    "Creative Reels & Shorts Editing",
+    "Fast and Quality Delivery"
+  ],
+  skills: [
+    "Adobe Premiere Pro",
+    "CapCut",
+    "After Effects"
+  ],
+  services: [
+    "Instagram Reels",
+    "YouTube Shorts",
+    "Short-form Video Editing"
+  ],
+  portfolio: [
+    {
+      title: "Portfolio",
+      desc: "Available on request"
+    }
+  ]
+},
+  
+  {
     id: 25,
     slug: "murli-rebari",
     name: "Murli Rebari",
