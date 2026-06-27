@@ -190,7 +190,7 @@ return `
     </div>
 
     <div class="card-footer">
-        <a href="${editor.profile}" class="btn btn-primary btn-sm">
+        <a href="editors/profile.html?id=${editor.id}" class="btn btn-primary btn-sm">
             View Profile
         </a>
 
